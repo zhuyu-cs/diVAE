@@ -55,7 +55,7 @@ Applied to large-scale **Ca²⁺ imaging data** from the **suprachiasmatic nucle
 ### Requirements
 
 ```bash
-pip install torch mmcv umap-learn scikit-learn scipy matplotlib
+pip install torch mmcv==0.5.0 umap-learn scikit-learn scipy matplotlib
 ```
 ---
 
@@ -69,7 +69,7 @@ The large-scale Ca²⁺ imaging dataset from the suprachiasmatic nucleus (SCN) u
 
 Please follow the data access instructions described in the paper's **Data Availability** section to download the raw Ca²⁺ imaging data. Once downloaded, place the data under the `data/` directory.
 
-- Preprocessed data is availiable at [Download preprocessed all_scn.pkl]().
+- Preprocessed data is availiable at [Download preprocessed all_scn.pkl](https://drive.google.com/file/d/1luiECdVaQMY6J0igDrZ_WFtuhNTzaJDF/view?usp=sharing).
 
 **Pre-saved analysis variables** are also provided for convenience so that figures can be reproduced without retraining:
 
@@ -77,7 +77,7 @@ Please follow the data access instructions described in the paper's **Data Avail
   → You can run Figure 2 analyses **directly**.
 
 - **Figure 5**: The attribution gradient file (`all_lv_grad.pkl`) is hosted on Google Drive due to file size:
-  - 📥 [Download all_lv_grad.pkl]()
+  - 📥 [Download all_lv_grad.pkl](https://drive.google.com/file/d/1ZcS8YFGokr7zCotOcu9rnYbTnArJxgQw/view?usp=drive_link)
   - Place the downloaded file at `Figure5/all_lv_grad.pkl`
 
 > **Note**: All figures can be reproduced directly using the pre-saved variables above.  
