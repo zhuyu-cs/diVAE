@@ -1,5 +1,5 @@
 
-# diVAE: Dual-Identifiable Variational Autoencoder Enables Cross-Subject Cyclic Variables in Neural Population Dynamics
+# diVAE: Dual-Identifiable Variational Autoencoder Reveals Cross-Subject Cyclic Variables in Neural Population Dynamics
 
 ## Overview
 Neural systems often exhibit **periodic activity patterns**, yet inferring intrinsic cyclic variables from high-dimensional neural observations remains fundamentally ill-posed. Existing identifiable representation learning approaches rely on extrinsic experimental covariates, overlooking the **intrinsic spatial organization** of the neural population itself.
